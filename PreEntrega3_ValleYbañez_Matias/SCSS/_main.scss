@@ -10,6 +10,10 @@ main{
     background-color:linear-gradient(to bottom, $color-bg, rgba(117, 19, 93, 0.73));
     max-height: fit-content; }
 
+    .carousel img:hover{
+      transform: scale(0.9);
+    }
+
     h1 {
         font-family: monospace;
         color: $color-ff;
@@ -39,11 +43,15 @@ main{
           
           .novedad img:hover {
             border: solid $color-ff 3px !important;
-            opacity: .9 !important; }
+            opacity: .9 !important;
+            transform: scale(1.2);}
 
             .miembros p {
                 text-align: justify;
                 display: flex;
                 font-family: $fuente;
                 align-items: center; }
-              
+
+                .miembros img:hover{
+                  transform: scale(1.1);
+                }
