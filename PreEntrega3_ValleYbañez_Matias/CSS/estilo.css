@@ -1,0 +1,68 @@
+body {
+  background-color: black;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  color: white; }
+
+.navbar {
+  background-color: #990707fb;
+  list-style: none;
+  margin: 0px auto;
+  text-align: left;
+  font-size: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: monospace;
+  color: white;
+  padding: 10px; }
+
+main {
+  padding: 1;
+  margin: 1;
+  box-sizing: border-box; }
+
+.carousel {
+  background-color: black;
+  max-height: fit-content; }
+
+h1 {
+  font-family: monospace;
+  color: white;
+  padding: 10px; }
+
+p1 {
+  padding: 20px;
+  line-height: 1.5;
+  color: aliceblue;
+  width: 400px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+
+a {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  padding: 10PX;
+  display: inline-block; }
+
+.novedad {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important; }
+
+.novedad img {
+  width: 500px !important;
+  border: solid rebeccapurple 2px !important;
+  opacity: .3 !important; }
+
+.novedad img:hover {
+  border: solid white 3px !important;
+  opacity: .9 !important; }
+
+.miembros p {
+  text-align: justify;
+  display: flex;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  align-items: center; }
+
+/* media query para pantalla Chica*/
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important; }
+  .grid-fila {
+    width: auto !important; } }
