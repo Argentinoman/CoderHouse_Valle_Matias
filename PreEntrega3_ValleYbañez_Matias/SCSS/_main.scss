@@ -7,7 +7,7 @@ main{
 }
 
 .carousel {
-    background-color: $color-bg;
+    background-color:linear-gradient(to bottom, $color-bg, rgba(117, 19, 93, 0.73));
     max-height: fit-content; }
 
     h1 {

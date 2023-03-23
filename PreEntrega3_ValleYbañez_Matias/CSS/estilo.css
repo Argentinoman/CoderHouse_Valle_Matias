@@ -10,8 +10,12 @@
   padding: 10px; }
 
 .carousel {
-  background-color: black;
-  max-height: fit-content; }
+    background-color:linear-gradient(to bottom, black, rgba(117, 19, 93, 0.73));
+    max-height: fit-content; }
+
+.carousel img:hover{
+  transform: scale(0.9);
+}
 
 * {
   padding: 1;
@@ -59,13 +63,18 @@ a {
 
 .novedad img:hover {
   border: solid white 3px !important;
-  opacity: .9 !important; }
+  opacity: .9 !important; 
+  transform: scale(1.2);}
 
 .miembros p {
   text-align: justify;
   display: flex;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   align-items: center; }
+
+  .miembros img:hover{
+    transform: scale(1.1);
+  }
 
 .pie {
   background-color: red; }
