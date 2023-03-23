@@ -1,0 +1,11 @@
+@import "variables";
+@import "body";
+@import "header";
+@import "main";
+
+/* media query para pantalla Chica*/
+@media (max-width: 768px) {
+    #intro {
+      width: 90% !important; }
+    .grid-fila {
+      width: auto !important; } }
