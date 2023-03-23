@@ -1,31 +1,31 @@
-body {
-  background-color: black;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
-  color: white; }
-
 .navbar {
   background-color: #990707fb;
   list-style: none;
   margin: 0px auto;
   text-align: left;
   font-size: 20px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   font-family: monospace;
-  color: white;
+  color: #ffffff;
   padding: 10px; }
-
-main {
-  padding: 1;
-  margin: 1;
-  box-sizing: border-box; }
 
 .carousel {
   background-color: black;
   max-height: fit-content; }
 
+* {
+  padding: 1;
+  margin: 1;
+  box-sizing: border-box; }
+
+body {
+  background-color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff; }
+
 h1 {
   font-family: monospace;
-  color: white;
+  color: #ffffff;
   padding: 10px; }
 
 p1 {
@@ -33,12 +33,19 @@ p1 {
   line-height: 1.5;
   color: aliceblue;
   width: 400px;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif; }
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; }
 
 a {
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   padding: 10PX;
   display: inline-block; }
+
+/* media query para pantalla Chica*/
+@media (max-width: 768px) {
+  #intro {
+    width: 90% !important; }
+  .grid-fila {
+    width: auto !important; } }
 
 .novedad {
   display: flex !important;
@@ -57,12 +64,13 @@ a {
 .miembros p {
   text-align: justify;
   display: flex;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   align-items: center; }
 
-/* media query para pantalla Chica*/
-@media (max-width: 768px) {
-  #intro {
-    width: 90% !important; }
-  .grid-fila {
-    width: auto !important; } }
+.pie {
+  background-color: red; }
+
+footer {
+  background-color: red;
+  text-align: center;
+  padding: 10px; }
