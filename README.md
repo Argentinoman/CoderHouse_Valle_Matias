@@ -1,3 +1,3 @@
 # CoderHouse_Valle_Matias
- Repo para las entregas
+ Repo para la entrega del proyecto final
  Desarrollo Web - Comisión 51470
