@@ -7,12 +7,8 @@ main{
 }
 
 .carousel {
-    background-color:linear-gradient(to bottom, $color-bg, rgba(117, 19, 93, 0.73));
-    max-height: fit-content; }
-
-    .carousel img:hover{
-      transform: scale(0.9);
-    }
+    background-color: $color-bg;
+    max-height: fit-content;}
 
     h1 {
         font-family: monospace;
@@ -31,6 +27,11 @@ main{
         padding: 10PX;
         display: inline-block; }
 
+        .container-fluid iframe:hover {
+          border: solid white 3px !important;
+          opacity: .9 !important; 
+          transform: scale(1.1);}
+
         .novedad {
             display: flex !important;
             justify-content: center !important;
@@ -43,15 +44,12 @@ main{
           
           .novedad img:hover {
             border: solid $color-ff 3px !important;
-            opacity: .9 !important;
-            transform: scale(1.2);}
+            opacity: .9 !important; 
+            transform: scale(1.1);
+            transition: cubic-bezier(1);}
 
             .miembros p {
                 text-align: justify;
                 display: flex;
                 font-family: $fuente;
                 align-items: center; }
-
-                .miembros img:hover{
-                  transform: scale(1.1);
-                }
